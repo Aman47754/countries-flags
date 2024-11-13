@@ -33,7 +33,7 @@ fetch("https://restcountries.com/v3.1/all")
     data.forEach((countryData) => {
       const card = document.createElement("a");
       card.classList.add("card");
-      card.href = `${location.origin}/country.html?name=${encodeURIComponent(countryData.name.common)}`;
+      card.href = `./country.html?name=${encodeURIComponent(countryData.name.common)}`;
 
       // const cardImg=document.createElement('img');
       // cardImg.src='https://flagcdn.com/gs.svg';
