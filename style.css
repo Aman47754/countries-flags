@@ -213,4 +213,8 @@ navigate{
     .search-container{
         flex-direction: column;
     }
+    .hero{
+        flex-direction: column;
+        max-width: 750px;
+    }
 }
