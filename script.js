@@ -71,7 +71,7 @@ filter.addEventListener('change',(e)=>{
     data.forEach((countryData) => {
       const card = document.createElement("a");
       card.classList.add("card");
-      card.href = `/country.html?name=${encodeURIComponent(countryData.name.common)}`;
+      card.href = `./country.html?name=${encodeURIComponent(countryData.name.common)}`;
 
       
       const cardHTML = `
@@ -107,7 +107,7 @@ function renderCountries(countries) {
   countries.forEach((countryData) => {
     const card = document.createElement("a");
     card.classList.add("card");
-    card.href = `/country.html?name=${encodeURIComponent(countryData.name.common)}`;
+    card.href = `./country.html?name=${encodeURIComponent(countryData.name.common)}`;
     
     const cardHTML = `
       <img src="${countryData.flags.svg}" alt="${countryData.name.common}">
