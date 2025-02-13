@@ -59,6 +59,12 @@ If hosted, add the link here:
 [Live Demo](countries-flags-delta.vercel.app/)
 
 ## Screenshots
+![home](https://github.com/Aman47754/countries-flags/blob/main/design/readables/home.png)
+![Search](https://github.com/Aman47754/countries-flags/blob/main/design/readables/search.png)
+![Filter](https://github.com/Aman47754/countries-flags/blob/main/design/readables/filter.png)
+![Country](https://github.com/Aman47754/countries-flags/blob/main/design/readables/country.png)
+![dark Home](https://github.com/Aman47754/countries-flags/blob/main/design/readables/dark%20_home.png)
+![Dark Country](https://github.com/Aman47754/countries-flags/blob/main/design/readables/dark_country.png)
 
 
 
