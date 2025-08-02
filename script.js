@@ -25,10 +25,11 @@ modeButton.addEventListener('click', function () {
 
 const cardContaier = document.querySelector(".card-container");
 let allCountriesData;
-fetch("https://restcountries.com/v3.1/all")
+fetch("https://restcountries.com/v3.1/all?fields=name,population,region,capital,flags")
   .then((res) => res.json())
   .then((data) => {
     allCountriesData=data;
+    console.log(allCountriesData);
     cardContaier.innerHTML='';
     data.forEach((countryData) => {
       const card = document.createElement("a");
